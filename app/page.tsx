@@ -63,10 +63,10 @@ export default function Home() {
         <div className="flex items-end">
           <div className="flex-1">
             <h1 className={`${oswald.className} uppercase text-3xl font-bold`}>
-              Object Detection
+              Simple Object Detection
             </h1>
             <h2 className={`${montserrat.className} text-gray-500`}>
-              With Hugging Face transformers
+              With Hugging Face transformers - Using Xenova/detr-resnet-50
             </h2>
           </div>
 

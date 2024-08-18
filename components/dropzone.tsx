@@ -59,7 +59,7 @@ export default function Dropzone({
     accept: {
       "image/*": [],
     },
-    maxSize: 1024 * 1000,
+    // maxSize: 1024 * 1000,
     maxFiles: 1,
     onDrop,
   });
@@ -155,7 +155,7 @@ export default function Dropzone({
                   </div>
                   <button
                     type="button"
-                    className="mt-1 rounded-md border border-rose-400 px-3 py-1 text-[12px] font-bold uppercase tracking-wider text-gray-500 transition-colors hover:bg-rose-400 hover:text-white"
+                    className={`mt-1 rounded-sm border border-rose-400 px-3 py-1 ${montserrat.className} text-[12px] font-bold uppercase tracking-wider text-rose-400 transition-colors hover:bg-rose-400 hover:text-white`}
                     onClick={() => remove()}
                   >
                     remove
